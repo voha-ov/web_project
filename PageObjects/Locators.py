@@ -7,6 +7,7 @@ class HomePageLocators:
     ActivateADevice = "//a[@class='navListItems'][contains(text(),'Activate a device')]"
     Sign_In = "//a[contains(text(),'Sign in')]"
     WhatToWatch_ChannelStore = "//span[contains(text(),'Channel Store')]"
+    WhatToWatch = "//a[contains(text(),'What to watch')]"
 
 
 class SignInPageLocators:

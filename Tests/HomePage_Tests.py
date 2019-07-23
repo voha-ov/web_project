@@ -29,6 +29,7 @@ class HomePageTests(unittest.TestCase):
     def test_03_add_the_channel(self):
         homepage = HomePageItems(self.driver)
         homepage.click_on_channel_store()
+
         time.sleep(2)
 
     @classmethod
