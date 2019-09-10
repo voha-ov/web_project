@@ -39,6 +39,6 @@ class HomePageItems:
 
     def enter_search_filed_on_chanStorepage(self):
         self.driver.find_element_by_xpath("//input[@id='Shell-21-Searchbar']")
-        
+
 
 

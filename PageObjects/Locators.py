@@ -24,10 +24,9 @@ class SignInPageLocators:
     Unchecked_captcha = "//div[@class='catpcha_error']"
     Correct_highlighted_fields_popup_txt1 = "//div[@class='modal']//h2[contains(text(),'Sorry')]"
     Correct_highlighted_fields_popup_txt2 = "//div[@class='modal']//div[@class='modal-content'][" \
-                               "contains(text(),'An error was encountered with the form. Please cor')]"
+                                            "contains(text(),'An error was encountered with the form. Please cor')]"
     Correct_highlighted_fields_popup_ok_btn = "//div[@class='modal']//button[contains(text(),'OK')]"
     Correct_highlighted_fields_popup_x_btn = "//div[@class='modal']//button[@class='modal-close'][contains(text(),'×')]"
-
 
 
 class SignUpPageLocators:
@@ -56,4 +55,6 @@ class ForgotPasswordPageLocators:
 class ChannelStorePageLocators:
     # Channel Store Page Locators
 
-    Search_channel = "// input[ @ id = 'Shell-21-Searchbar']"
+    Url = "https://channelstore.roku.com/en-gb/browse"
+    Search_field = "form-control"
+    Netflix_details_btn = "/details/12/netflix"

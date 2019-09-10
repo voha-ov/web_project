@@ -17,6 +17,12 @@ cursor.execute("SELECT top 2 Price, ProductName \
                 FROM tblProducts \
                 WHERE Package_QTY > 5 \
                 Order by Price desc")
+digits = []
+txt = []
 
 for row in cursor:
-    print(row)
+    txt.append(row[0])
+    digits.append(row[1])
+    # print(row[0], row[1])
+
+print(digits,"\n",txt)
